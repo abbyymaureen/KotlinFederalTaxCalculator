@@ -30,4 +30,4 @@ Now that you have everything installed, you are ready to run our program.
 1. Navigate to IntelliJ.
 2. Open the project cloned to your computer.
 3. Navigate to the file named 'IncomeTaxCalculator.kt'
-4. Click 'Run' in the top right corner and enjoy our application! You are all set to start making simple arithmetic calculations!
+4. Click 'Run' in the top right corner and enjoy our application! You are all set to start doing your taxes!
