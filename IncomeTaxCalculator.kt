@@ -99,13 +99,15 @@ class TaxCalculatorApp : JFrame("Tax Calculator") {
     private fun calculateTax() {
         val incomeText = incomeTextField.text
         if (incomeText.isBlank()) {
-            resultLabel.text = "Please enter a valid income."
+            resultLabel.text = "Income field must not be blank"
+            netLabel.text = ""
             return
         }
 
         val income = incomeText.toDoubleOrNull()
         if (income == null) {
-            resultLabel.text = "Invalid income amount."
+            resultLabel.text = "Income amount must be number"
+            netLabel.text = ""
             return
         }
 
